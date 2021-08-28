@@ -1,5 +1,13 @@
 This code produces the non-anonymized version of the CNN / Daily Mail summarization dataset, as used in the ACL 2017 paper *[Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/pdf/1704.04368.pdf)*. It processes the dataset into the binary format expected by the [code](https://github.com/abisee/pointer-generator) for the Tensorflow model.
 
+# Made-Easy Instruction
+- Open made_easy.ipynb and click `open in colab` and run all the cells after connected to a `hosted_runtime`.
+- Follow the description and steps for best results and smooth code running.
+
+### Results
+- Data is converted from raw `stories` to .bin
+- .bin files can then be converted to .txt.tgt and .txt.src
+
 # Instructions
 
 ## 1. Download data
